@@ -1,0 +1,24 @@
+ion-header {
+    background-color: #fff;
+  }
+  
+  .gradient-button {
+    --background: linear-gradient(to right, #ff4081, #ff80ab); 
+    color: white;
+    margin-bottom: 10px; 
+  }
+  
+  .gray-button {
+    --background: #B0BEC5;
+    color: white; 
+  }
+  
+  .footer-link {
+    text-align: center;
+    margin-top: 10px; 
+  }
+  
+  .footer-link ion-label {
+    cursor: pointer; 
+  }
+  

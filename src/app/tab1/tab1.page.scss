@@ -1,0 +1,134 @@
+.logo-title {
+  font-family: 'Lobster', cursive;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: #000;
+}
+
+.input-search {
+  background-color: #f3f3f3;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 18px;
+  color: #333;
+  margin: 16px 0;
+}
+
+.date {
+  color: gray;
+  font-size: 12px;
+}
+
+.info-link {
+  color: #ff4081;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: right;
+}
+
+ion-card img {
+    border-radius: 8px;
+    width: 100%; /* Faz a imagem ocupar toda a largura do card */
+    height: auto; /* Mantém a proporção da imagem */
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorção */
+    padding: 5px;
+  }
+  
+
+.news-card h3 {
+  white-space: normal;
+}
+
+.volunteer-card {
+  position: relative;
+}
+  
+
+.status-grid {
+  margin-top: 10px;
+
+}
+
+.circle-container {
+  display: flex;  /* Alinha as bolinhas horizontalmente */
+  align-items: center;
+}
+
+/* Bolinhas com ícones e número */
+.status-circle {
+  display: flex;
+  flex-direction: column; /* Coloca o ícone e número em coluna */
+  align-items: center; /* Centraliza o conteúdo */
+  justify-content: center;
+  width: 40px;  /* Tamanho das bolinhas */
+  height: 40px; /* Aumentei o tamanho das bolinhas para caber o ícone e número */
+  border-radius: 100%;
+  margin-right: 16px; /* Espaço entre as bolinhas */
+  position: relative; /* Para facilitar o posicionamento */
+  padding: 2px;
+}
+
+.available-circle {
+  background-color: #4CAF50; /* Verde */
+}
+
+.total-circle {
+  background-color: #B0BEC5; /* Cinza */
+}
+
+/* Número dentro da bolinha */
+.number {
+  color: white;
+  font-size: 10px; /* Tamanho do número */
+  margin-top: 2px; /* Espaço entre o ícone e o número */
+}
+
+.status-icon {
+  color: white;
+  padding: 0;
+  font-size: 18px; /* Tamanho do ícone */
+}
+
+.status-label {
+  font-size: 12px;
+  text-align: center; /* Centraliza a legenda abaixo da bolinha */
+  margin-top: 2px; /* Espaço entre a bolinha e a legenda */
+}
+
+.interest-button {
+  color: #ff4081;
+  margin-left: auto; /* Empurra o botão de interesse para a direita */
+}
+
+
+
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  margin: 10px 0;
+}
+
+.text-right {
+  text-align: right;
+}
+
+ion-chip {
+  margin-right: 5px;
+}
+
+ion-footer {
+  --background: #fff;
+}
+
+ion-tab-button {
+  --color-selected: #ff4081;
+}
+
+ion-tab-bar {
+  background-color: #f3f3f3;
+}

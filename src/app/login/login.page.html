@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Login / Cadastro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <form (ngSubmit)="onSubmit()">
+    <ion-item>
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="email" ngModel required></ion-input>
+    </ion-item>
+    
+    <ion-item>
+      <ion-label position="floating">Senha</ion-label>
+      <ion-input type="password" ngModel required></ion-input>
+    </ion-item>
+
+    <ion-button expand="full" class="gradient-button" type="submit">
+      Entrar
+    </ion-button>
+
+    <ion-button expand="full" class="gray-button" type="button">
+      Entrar com Google
+    </ion-button>
+
+    <ion-footer>
+      <div class="footer-link">
+        <ion-label color="danger" (click)="navigateToSignup()">Ainda não possuo cadastro</ion-label>
+      </div>
+    </ion-footer>
+  </form>
+
+</ion-content>
