@@ -1,0 +1,7 @@
+{
+  "name": "app-lumina-pc2",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
